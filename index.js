@@ -7,7 +7,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.get("/", function(req, res) {
-	res.send("Suck my noots");
+	res.send("here");
 });
 
 var server = app.listen(3000, function () {
